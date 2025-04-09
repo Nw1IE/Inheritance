@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BitString.cpp" />
     <ClCompile Include="ConsoleApplication2.cpp" />
+    <ClCompile Include="Line.cpp" />
     <ClCompile Include="Pets2.cpp" />
   </ItemGroup>
   <ItemGroup>

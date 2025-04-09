@@ -12,7 +12,10 @@ public:
 		this->name = name;
 		this->age = age;
 		this->breed = breed;
+		this->gender = gender;
 	}
+
+	
 
 private: 
 	std::string name;
