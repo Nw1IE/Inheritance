@@ -17,7 +17,10 @@ public:
 	
 	Line(std::string  Words);
 	
-
+	Line operator+(const int);
+	Line operator+=(const int);
+	Line operator==(const int);
+	Line operator!=(const int);
 	
 	//int main()
 	//{
@@ -29,7 +32,7 @@ public:
 	//	Person sam{ "Sam" };
 	//}   // объект Sam уничтожается
 	 // 8
-	// 9
+	// 9;
 private:
 	std::string line;
 	std::string Words; // взял его
@@ -81,6 +84,26 @@ Line::Line(std::string p_line)
 		line = p_line;
 		std::cout << "Line" << line << "Line" << std::endl;
 	}
+}
+
+Line Line::operator+(const int)
+{
+	return Line();
+}
+
+Line Line::operator+=(const int)
+{
+	return Line();
+}
+
+Line Line::operator==(const int)
+{
+	return Line();
+}
+
+Line Line::operator!=(const int)
+{
+	return Line();
 }
 
 Line::Line(const Line& p)
